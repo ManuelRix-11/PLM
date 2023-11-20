@@ -5,7 +5,11 @@
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      ["expo-contacts",
+      {
+        "contactsPermission": "Allow Libera Mente to access your contacts"
+      }]
     ],
     "name": "PLM",
     "slug": "PLM"
