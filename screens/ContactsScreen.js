@@ -16,9 +16,7 @@ const stiloso = StyleSheet.create({
     backgroundColor: "#1e1f22", 
     width: '100%', 
     height: '100%', 
-    flex:1, 
-    flexDirection: 'row',
-    flexWrap: 'wrap'}
+  }
 })
 
 export default ContactsScreen;
